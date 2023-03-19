@@ -1,0 +1,61 @@
+.wrapper
+{
+    height: 90vh;
+    width: 81vh;
+}
+
+.keypads
+{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    height:90%;
+    border:1px solid black;
+}
+
+.btn
+{
+    width:calc(100%/3);
+    height:calc(100%/3);
+    background-color: transparent;
+    font-style: bold;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+.top
+{
+    color:black;
+    height:9vh;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 3%;
+}
+.winner
+{
+    height:80%;
+    text-align: center;
+    width: calc(100%/4);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.btn-reset
+{
+    height:100%;
+    width: calc(100%/4);
+    background-color: transparent;
+}
+
+.btn-reset:hover
+{
+    cursor: pointer;
+    font-size: large;
+}
